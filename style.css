@@ -1,0 +1,54 @@
+body {
+    background: black;
+    color: rgb(110, 147, 227);
+    margin: 0px;
+    font-family: "Libre Baskerville", serif;
+
+}
+
+header {
+    border-bottom: solid 2px rgb(160, 113, 218);
+    padding: 40px;
+    font-size: 50px;
+}
+
+.chamada {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    background: rgb(77, 95, 237);
+    color:black;
+    font-size: 25px;
+
+}
+
+.titulo-video {
+    margin-right: 5%;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img{
+    opacity: 1.5;
+    height: 200px;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid purple;
+}
+.categoria h2 {
+    
+    color: rgb(160, 113, 218);
+
+}
+
